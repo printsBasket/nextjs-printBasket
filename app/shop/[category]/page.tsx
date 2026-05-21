@@ -52,8 +52,11 @@ export async function generateMetadata({ params }: ShopCategoryParams): Promise<
   };
 }
 
+export const dynamic = 'force-static';
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
-  return Object.keys(categoryFilters).map((category) => ({ category }));
+  return Object.keys(categoryFilters).map((category) => ({ category: category as CategorySlug }));
 }
 
 export default async function ShopCategoryPage({ params }: ShopCategoryParams) {
