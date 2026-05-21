@@ -26,9 +26,16 @@ const categoryFilters = {
   },
 };
 
-export async function generateMetadata({ params }): Promise<Metadata> {
-  const resolvedParams = await params;
-  const category = categoryFilters[resolvedParams.category];
+type CategorySlug = keyof typeof categoryFilters;
+
+type ShopCategoryParams = {
+  params: {
+    category: CategorySlug;
+  };
+};
+
+export async function generateMetadata({ params }: ShopCategoryParams): Promise<Metadata> {
+  const category = categoryFilters[params.category];
 
   if (!category) {
     return {
@@ -41,7 +48,7 @@ export async function generateMetadata({ params }): Promise<Metadata> {
   return {
     title: category.title,
     description: category.description,
-    alternates: { canonical: `https://printsbasket.com/shop/${resolvedParams.category}` },
+    alternates: { canonical: `https://printsbasket.com/shop/${params.category}` },
   };
 }
 
@@ -49,9 +56,8 @@ export async function generateStaticParams() {
   return Object.keys(categoryFilters).map((category) => ({ category }));
 }
 
-export default async function ShopCategoryPage({ params }) {
-  const resolvedParams = await params;
-  const category = categoryFilters[resolvedParams.category];
+export default async function ShopCategoryPage({ params }: ShopCategoryParams) {
+  const category = categoryFilters[params.category];
   if (!category) {
     notFound();
   }

@@ -34,7 +34,7 @@ export async function POST(request: Request) {
             : 1;
         const weightMultiplier = Math.max(1, Math.ceil(totalItems / 3));
 
-        const getFallbackRates = () => {
+const getFallbackRates = (): any[] => {
             const isDomesticCA = (country || 'US').toUpperCase() === 'CA';
             const isDomesticUS = (country || 'US').toUpperCase() === 'US';
             
@@ -136,7 +136,7 @@ export async function POST(request: Request) {
             ];
             
             const filteredRates = shipment.rates.filter((rate: any) => allowedAccounts.includes(rate.carrier_account_id));
-            let finalRates = filteredRates.length > 0 ? filteredRates : shipment.rates;
+            let finalRates: any[] = filteredRates.length > 0 ? filteredRates : shipment.rates;
 
             if (finalRates.length === 0) {
                 finalRates = getFallbackRates();

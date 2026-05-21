@@ -100,7 +100,7 @@ const Checkout = () => {
 
             script.addEventListener('load', mountCloverElements, { once: true });
         }
-    }, [userInfo, cartItems, navigate, step]);
+    }, [userInfo, cartItems, router, step]);
 
     const subtotal = cartItems.reduce((acc, item) => acc + item.price * item.qty, 0);
     const taxPrice = 0;
