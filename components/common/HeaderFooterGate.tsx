@@ -1,10 +1,8 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 
-export default function HeaderFooterGate() {
+export default function HeaderFooterGate({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const hideHeaderFooter = pathname?.startsWith('/admin');
 
@@ -12,10 +10,5 @@ export default function HeaderFooterGate() {
     return null;
   }
 
-  return (
-    <>
-      <Header />
-      <Footer />
-    </>
-  );
+  return <>{children}</>;
 }
