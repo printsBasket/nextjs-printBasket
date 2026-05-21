@@ -2,8 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Providers from "@/components/Providers";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import HeaderFooterGate from "@/components/common/HeaderFooterGate";
 import ScrollToTop from "@/components/ScrollToTop";
 import TrailingSlashRedirect from "@/components/common/TrailingSlashRedirect";
 
@@ -97,12 +96,11 @@ export default function RootLayout({
       <body className={`${inter.className} min-h-screen flex flex-col antialiased bg-slate-50 text-slate-800`}>
         <Providers>
           <TrailingSlashRedirect />
-          <Header />
+          <HeaderFooterGate />
           <ScrollToTop />
           <main className="flex-grow">
             {children}
           </main>
-          <Footer />
         </Providers>
       </body>
     </html>
