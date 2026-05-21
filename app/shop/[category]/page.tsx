@@ -35,7 +35,8 @@ type ShopCategoryParams = {
 };
 
 export async function generateMetadata({ params }: ShopCategoryParams): Promise<Metadata> {
-  const category = categoryFilters[params.category];
+  const resolvedParams = await params;
+  const category = categoryFilters[resolvedParams.category];
 
   if (!category) {
     return {
@@ -48,7 +49,7 @@ export async function generateMetadata({ params }: ShopCategoryParams): Promise<
   return {
     title: category.title,
     description: category.description,
-    alternates: { canonical: `https://printsbasket.com/shop/${params.category}` },
+    alternates: { canonical: `https://printsbasket.com/shop/${resolvedParams.category}` },
   };
 }
 
@@ -60,7 +61,8 @@ export async function generateStaticParams() {
 }
 
 export default async function ShopCategoryPage({ params }: ShopCategoryParams) {
-  const category = categoryFilters[params.category];
+  const resolvedParams = await params;
+  const category = categoryFilters[resolvedParams.category];
   if (!category) {
     notFound();
   }
