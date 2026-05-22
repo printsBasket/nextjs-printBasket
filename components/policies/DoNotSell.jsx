@@ -186,7 +186,7 @@ const DoNotSell = () => {
               <li>Charge different prices</li>
               <li>Provide a lower level of service</li>
               <li>Discriminate against you in any way</li>
-              <li>â€¦for exercising your privacy rights under applicable laws.</li>
+              <li>...for exercising your privacy rights under applicable laws.</li>
             </ul>
           </div>
 

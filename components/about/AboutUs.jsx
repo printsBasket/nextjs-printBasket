@@ -9,7 +9,7 @@ const AboutUs = () => {
       {/* <section className="py-8 sm:py-12 lg:py-16 bg-gradient-to-br from-blue-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 sm:mb-4">
-            About Us â€” Prints Basket
+            About Us - Prints Basket
           </h1>
           <div className="w-16 sm:w-24 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full"></div>
         </div>
@@ -76,7 +76,7 @@ const AboutUs = () => {
               <Shield className="w-8 h-8 sm:w-10 sm:h-10 text-blue-600 flex-shrink-0 mt-1" />
               <div className="min-w-0">
                 <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
-                  Prints Basket operates under a registered Canadian business entity, ensuring that all operationsâ€”from product listings to order fulfillment and customer supportâ€”are conducted through a structured and accountable business framework.
+                  Prints Basket operates under a registered Canadian business entity, ensuring that all operations - from product listings to order fulfillment and customer support - are conducted through a structured and accountable business framework.
                 </p>
               </div>
             </div>
@@ -152,7 +152,7 @@ const AboutUs = () => {
             </p>
 
             <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
-              Our goal is to simplify this process by focusing only on products that serve clear and practical use cases. Instead of listing hundreds of similar options, products are organized in a way that helps customers quickly identify what fits their needsâ€”based on usage, environment, and performanceâ€”without unnecessary complexity.
+              Our goal is to simplify this process by focusing only on products that serve clear and practical use cases. Instead of listing hundreds of similar options, products are organized in a way that helps customers quickly identify what fits their needs - based on usage, environment, and performance - without unnecessary complexity.
             </p>
           </div>
         </div>
@@ -204,7 +204,7 @@ const AboutUs = () => {
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2 text-center sm:text-left">How We Work</h2>
           <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed">
-            Every part of the process is built around clarity and consistencyâ€”from product selection to post-purchase support.
+            Every part of the process is built around clarity and consistency - from product selection to post-purchase support.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
@@ -215,7 +215,7 @@ const AboutUs = () => {
               },
               {
                 title: "Accurate Listings & Documentation",
-                desc: "Product pages are structured to provide clear and useful information. Specifications, compatibility details, and usage guidance are presented to help customers understand the productâ€”not to promote it unnecessarily."
+                desc: "Product pages are structured to provide clear and useful information. Specifications, compatibility details, and usage guidance are presented to help customers understand the product - not to promote it unnecessarily."
               },
               {
                 title: "Transparent Pricing & Checkout",
@@ -255,7 +255,7 @@ const AboutUs = () => {
               {
                 icon: TrendingUp,
                 title: "Focused Catalog, Not Overloaded Listings",
-                desc: "Many online stores list a large number of similar products, which can make choosing difficult. Our catalog is intentionally selective, ensuring each product serves a clear purposeâ€”whether for home use, office work, or professional environments."
+                desc: "Many online stores list a large number of similar products, which can make choosing difficult. Our catalog is intentionally selective, ensuring each product serves a clear purpose - whether for home use, office work, or professional environments."
               },
               {
                 icon: Globe,
@@ -270,7 +270,7 @@ const AboutUs = () => {
               {
                 icon: Shield,
                 title: "Clear Responsibility",
-                desc: "All operationsâ€”from product listings to order fulfillment and customer supportâ€”are handled within a single system. Customers know exactly who they are buying from and who is responsible for the process."
+                desc: "All operations - from product listings to order fulfillment and customer support - are handled within a single system. Customers know exactly who they are buying from and who is responsible for the process."
               },
               {
                 icon: Users,

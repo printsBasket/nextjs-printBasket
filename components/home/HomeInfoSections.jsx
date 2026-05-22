@@ -130,28 +130,28 @@ const HomeInfoSections = () => {
             <div className="lg:col-span-2 bg-gradient-to-r from-blue-100 to-indigo-100 rounded-lg sm:rounded-xl p-4 sm:p-6 border border-blue-200">
               <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Clear, Reliable, and Focused</h3>
               <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-4">
-                We provide a carefully selected range of printers and related products through a simple and structured shopping experience. Every detail â€” from product information to checkout â€” is designed to help customers make confident decisions without confusion.
+                We provide a carefully selected range of printers and related products through a simple and structured shopping experience. Every details - from product information to checkout - is designed to help customers make confident decisions without confusion.
               </p>
               <ul className="space-y-2 sm:space-y-3">
                 <li className="flex items-start gap-2 sm:gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-sm sm:text-base text-gray-700">Curated Product Selection â€“ Relevant printers for home and business use</span>
+                  <span className="text-sm sm:text-base text-gray-700">Curated Product Selection - Relevant printers for home and business use</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-sm sm:text-base text-gray-700">Clear Product Information â€“ Accurate details for informed decisions</span>
+                  <span className="text-sm sm:text-base text-gray-700">Clear Product Information - Accurate details for informed decisions</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-sm sm:text-base text-gray-700">Transparent Pricing â€“ No hidden fees or misleading offers</span>
+                  <span className="text-sm sm:text-base text-gray-700">Transparent Pricing - No hidden fees or misleading offers</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-sm sm:text-base text-gray-700">Easy Shopping Experience â€“ Smooth browsing and checkout process</span>
+                  <span className="text-sm sm:text-base text-gray-700">Easy Shopping Experience - Smooth browsing and checkout process</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-sm sm:text-base text-gray-700">Reliable Delivery â€“ Serving customers across the United States and Canada</span>
+                  <span className="text-sm sm:text-base text-gray-700">Reliable Delivery - Serving customers across the United States and Canada</span>
                 </li>
               </ul>
             </div>
@@ -168,7 +168,7 @@ const HomeInfoSections = () => {
             </h2>
             <div className="w-16 sm:w-20 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full mx-auto sm:mx-0"></div>
             <p className="text-gray-600 text-sm sm:text-base lg:text-lg mt-4 leading-relaxed">
-              We focus on providing a reliable and transparent experience at every step â€” from ordering to delivery and ongoing support.
+              We focus on providing a reliable and transparent experience at every step - from ordering to delivery and ongoing support.
             </p>
           </div>
 

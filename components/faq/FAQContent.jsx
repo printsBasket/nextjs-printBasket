@@ -28,7 +28,7 @@ const FAQContent = () => {
     },
     {
       q: "How long does delivery take?",
-      a: "Estimated delivery times: United States 3â€“7 business days, Canada 3â€“8 business days. Delivery times are estimates and may vary depending on location, carrier delays, or external factors."
+      a: "Estimated delivery times: United States 3-7 business days, Canada 3-8 business days. Delivery times are estimates and may vary depending on location, carrier delays, or external factors."
     },
     {
       q: "How can I track my order?",
@@ -40,7 +40,7 @@ const FAQContent = () => {
     },
     {
       q: "How long does it take to receive a refund?",
-      a: "Refunds are processed within 3â€“5 business days after the returned item is received and inspected. Final timing may depend on your payment provider."
+      a: "Refunds are processed within 3-5 business days after the returned item is received and inspected. Final timing may depend on your payment provider."
     },
     {
       q: "What if I receive a damaged or incorrect item?",
