@@ -40,7 +40,6 @@ const EULA = () => {
               You may not transfer, sublicense, or assign your access rights without prior written consent.
             </p>
           </div>
-          aske
           {/* 2. User Responsibilities */}
           <div className="space-y-4">
             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">2. User Responsibilities</h2>

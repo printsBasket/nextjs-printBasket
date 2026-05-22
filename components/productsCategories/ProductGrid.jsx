@@ -23,7 +23,7 @@ const ProductGrid = ({ heading = "Products", products = [], enableFlowLayout = f
                             i < Math.round(rating || 0) ? 'text-yellow-400' : 'text-gray-300'
                         }`}
                     >
-                        â˜…
+                        ★
                     </span>
                 ))}
             </div>

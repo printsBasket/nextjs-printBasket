@@ -67,7 +67,7 @@ const ContactForm = () => {
 
       {success && (
         <div className="mb-4 p-4 bg-green-50 border border-green-200 rounded-lg">
-          <p className="text-green-800 font-semibold">âœ“ Message sent successfully! We'll get back to you soon.</p>
+          <p className="text-green-800 font-semibold">✓ Message sent successfully! We'll get back to you soon.</p>
         </div>
       )}
 

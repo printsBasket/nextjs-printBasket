@@ -108,7 +108,7 @@ const TrackOrder = () => {
                                         Payment Status
                                     </p>
                                     <p className="font-black text-sm" style={{color: orderDetails.paid ? '#059669' : '#2364eb'}}>
-                                        {orderDetails.paid ? "âœ“ Paid" : "Failed - Please Reorder"}
+                                        {orderDetails.paid ? "✓ Paid" : "Failed - Please Reorder"}
                                     </p>
                                 </div>
                                 <div className={`p-4 rounded-xl border-2 ${
@@ -120,7 +120,7 @@ const TrackOrder = () => {
                                         Current Status
                                     </p>
                                     <p className="font-bold text-sm" style={{color: orderDetails.paid ? '#2364eb' : '#DC2626'}}>
-                                        {orderDetails.paid ? orderDetails.status : "âŒ Order Cancelled"}
+                                        {orderDetails.paid ? orderDetails.status : "✘ Order Cancelled"}
                                     </p>
                                 </div>
                             </div>
